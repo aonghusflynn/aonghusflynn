@@ -18,7 +18,9 @@ const commonConfig = {
   },
   plugins: [
     new  HtmlWebpackPlugin({
-      title: 'Webpack Demo'
+      title: 'Aonghus Flynn Web Developer',
+      myPageHeader: 'I make stuff on the web',
+      template: './app/index.html'
     }),
   ],
 };
