@@ -3,36 +3,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><%= htmlWebPackPlugin.options.title %></title>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    
+    <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans|Dosis:400,800" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
 </head>
 <body>
     <header>
-        <h1><%= htmlWebPackPlugin.options.myPageHeader %></h1>
+        <h1><%= htmlWebpackPlugin.options.myPageHeader %></h1>
     </header>
     <div id="content">
-    <section id="bio">
-        <h2>Bio</h2>
-        <p>I am a web developer who has been working on the web since 1998.</p>
-        <p>I have experience in building web applications in many different languages, Ruby, Python, Java, PHP, Flash (old school) and javascript. Lately, I have becomme really interested in PWAs. I think this merger of mobile and web is the future and the key to tapping in to the billions of potential customers in emerging regions.</p>
-        <p>Since 2006, I have been working for the salesforce.com marketing team. I am the technical lead on all didgital marketing projects that involve the we in EMEA.</p>
-        <p>On the personal side, I am a dad of 2 and interests included photography, GAA (Cuala Abú!), American Football (Go Steelers!) and sea kayaking.</p>
-    </section>
-    <section id="twitter">
-        <h2>Twitter</h2>
-        <a class="twitter-timeline" href="https://twitter.com/aonghusflynn?ref_src=twsrc%5Etfw">Tweets by aonghusflynn</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </section>
-    <section id="instagram">
-        <h2>Instagram</h2>
-        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/BcnlgR_FtYK/" data-instgrm-version="8" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:33.101851851851855% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BcnlgR_FtYK/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">#snow #fun #ireland #tipperary time to duck</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/aonghusflynn/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Aonghus Flynn</a> (@aonghusflynn) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-12-12T22:13:23+00:00">Dec 12, 2017 at 2:13pm PST</time></p></div></blockquote> <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
-    </section>
+        <my-app></my-app>
     </div>
+    <div id="my-app"></div>
     <footer>
-        <p class="small">All content &copy; Aonghus Flynn</p>
+        <section id="bio">
+            <h2>Bio</h2>
+            <p>I am a web developer who has been working on the web since 1998.</p>
+            <p>I have experience in building web applications in many different languages, Ruby, Python, Java, PHP, Flash (old school) and javascript. Lately, I have becomme really interested in PWAs. I think this merger of mobile and web is the future and the key to tapping in to the billions of potential customers in emerging regions.</p>
+            <p>Since 2006, I have been working for the salesforce.com marketing team. I am the technical lead on all didgital marketing projects that involve the we in EMEA.</p>
+            <p>On the personal side, I am a dad of 2 and interests included photography, GAA (Cuala Abú!), American Football (Go Steelers!) and sea kayaking.</p>
+        </section>
     </footer>
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans|Dosis:400,800" rel="stylesheet" type="text/css" />
-    <script src="https://unpkg.com/axios/dist/axios.min.js" async></script>
-    <script src="./app/index.js"></script>
+    
+
 </body>
 </html>

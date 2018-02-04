@@ -8,10 +8,6 @@ h1{
     flex-wrap: wrap;
 }
 
-section{
-    width:30%;
-    margin: 5%;
-}
 
 h1 {
     font-family: 'Dosis', sans-serif;
@@ -31,18 +27,31 @@ p {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 23px;
-    margin: 0 0 23px 0;
+    /* margin: 0 0 23px 0; */
     }
-section{
-    width:30%;
-    margin: 5%;
-}
+    
+
 
 footer{
     margin:0;
     padding:5%;
     background:#333;
     color:#eee;
+    
+    max-height:25%
+}
+
+footer p{
+    font-size: 10px;
+    line-height: 13px;
+}
+
+header{
+    min-height: 25%;
+    background-image: url("../images/IMG_1476.JPG");
+    background-size: cover;
+    background-repeat:  no-repeat;
+    padding: 2.8em;
 }
 
 @media (min-width: 10em) and (orientation: portrait) { 
@@ -52,7 +61,5 @@ footer{
 }
 
 @media (min-width: 30em) and (orientation: landscape) { 
-    section{
-       width: 23%;
-    }        
+     
 }
