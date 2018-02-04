@@ -4,6 +4,8 @@
   "description": "My personal site",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --env development",
+    "build": "webpack --env production",
     "test": "test"
   },
   "repository": {
@@ -15,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/aonghusflynn/aonghusflynn/issues"
   },
-  "homepage": "https://github.com/aonghusflynn/aonghusflynn#readme"
+  "homepage": "https://github.com/aonghusflynn/aonghusflynn#readme",
+  "devDependencies": {
+    "normalize.css": "^7.0.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
 }
